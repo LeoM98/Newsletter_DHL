@@ -1,0 +1,241 @@
+/*RESET CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Importación de las fuentes especificas... Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
+
+/*Ajusta todo el contenido de la pagina  */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Ajusta todo el contenido principal*/
+body, ul, h1, h2{
+    margin: 0;
+    padding: 0;
+}
+
+/*Fuente principal*/
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Estilos de las listas*/
+ul {
+    list-style: square;
+    margin-top: 10px;
+}
+
+/*Colores de las cuadros de listas*/
+ul li{
+    color: red;
+}
+
+/*Color de la fuente*/
+ul li p{
+    color: black;
+}
+
+/*Color de resaltado*/
+nav {
+    height: 44px;
+    background-color: #ffce38;
+}
+
+/*Ajuste del encabezado*/
+header{
+    position: relative;
+}
+
+/*Ancho del logo*/
+.logo {
+    width: 150px;
+}
+
+/*Propiedas de los valores del header*/
+.header-bg {
+    width: 100vw;
+    height: 450px;
+}
+
+/*Propiedades textuales del header*/
+.header-text {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    color: #ffce38;
+}
+
+/*Tamaño de nuestro titulo*/
+.header-text h1 {
+    font-size: 60px;
+}
+
+/*Tamaño de nuestro subtitulo*/
+.header-text h2 {
+    font-size: 32px;
+}
+
+/*Movimiento de la parte principal*/
+.principal {
+    padding: 0 1.5%;
+    margin-bottom: 25px;
+}
+/*Subtitulos*/
+.principal h2{
+    font-size: 250%;
+}
+
+/*Ajustes de las 3 columnas*/
+.columns {
+    display: flex;
+}
+
+/*Propiedades de las columnas*/
+.col {
+    width: 30%;
+    padding: 0 1.5%;
+    margin-top: 13px;
+}
+
+/*Texto en negrilla*/
+.p1{
+    font-weight: bold;
+}
+
+/*Tamaño y estructura del texto*/
+.US{
+    font-size: 87%;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+/*Resaltado del contenido*/
+section{
+    background-color: yellow;
+    padding: 3%;
+    margin-top: 30px;
+}
+
+/*Caja div, movimient y resaltado*/
+.pp{
+    margin-top: 10px;
+    background-color: yellow;
+    padding: 0px 20px 2px 20px;
+}
+/*Tamaño de imagen*/
+.col .imgs {
+    width: 100%;
+}
+
+/*Redireccionamiento*/
+a{
+    margin: 35%;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/*Ancho*/
+.h{
+    margin: 25px;
+}
+
+/*Color de hover*/
+a:hover{
+    background-color: #ffce38;
+    color:black;
+}
+
+/*Posicionaiento*/
+.col .p{
+    margin-bottom: 15px;
+}
+
+/*Resaltado*/
+.p2{
+    background-color: yellow;
+}
+
+/*Ajustes del pie de pagina*/
+.footer{
+    background-color:#ffce38;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin: 10px;
+    text-align: justify; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Colores de los subtilulos de las columnas*/
+.col h2{
+    color: red;
+    font-size: 95%;
+}
+
+/*Justificación de contenido*/
+.col{
+    line-height: 27px;
+    text-align: justify;
+}
+
+/*Movimiento del logo 2*/
+.logo2{
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    position: relative;
+    padding-left: 995px;
+    bottom: 65px;
+
+}
+
+/*Resaltado de color*/
+.p3{
+    background-color: yellow;
+    padding: 10%;
+}
